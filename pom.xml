@@ -50,7 +50,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${mavenPlugin}</version>
                 <configuration>
+                    <!--
                     <groups>unittests</groups>
+                    -->
                 </configuration>
             </plugin>
             <plugin>
