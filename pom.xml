@@ -26,7 +26,12 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit5}</version>
             <scope>test</scope>
-        </dependency>
+        </dependency><dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-params</artifactId>
+        <version>${junit5}</version>
+        <scope>test</scope>
+    </dependency>
     </dependencies>
 
     <build>
