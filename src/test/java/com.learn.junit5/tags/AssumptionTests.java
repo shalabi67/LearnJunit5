@@ -1,9 +1,11 @@
-package com.learn.junit5;
+package com.learn.junit5.tags;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Assumptions;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+@Tag("assumption")
+@Tag("unittests")
 public class AssumptionTests {
 
 	@Test
