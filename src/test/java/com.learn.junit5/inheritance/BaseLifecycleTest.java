@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 @Tag("example")
-class BaseLifecycleTest {
+public class BaseLifecycleTest {
 	@BeforeAll
 	static void classScopeBefore() {
 		System.out.println("Before anything: This is class scope, will be called before any test");
