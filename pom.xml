@@ -10,6 +10,7 @@
 
     <properties>
         <junit5>5.4.0</junit5>
+        <mockito>2.25.0</mockito>
         <mavenPlugin>2.22.1</mavenPlugin>
     </properties>
 
@@ -26,12 +27,25 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit5}</version>
             <scope>test</scope>
-        </dependency><dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-params</artifactId>
-        <version>${junit5}</version>
-        <scope>test</scope>
-    </dependency>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>${junit5}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>${mockito}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>${mockito}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
